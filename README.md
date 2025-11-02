@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-*** History (June 2023 ~) ***
+***History (June 2023 ~)***
   1. 2023/06 ~ 2023/07: Auto Trade Machine - Alpha
   2. 2023/07 ~ 2023/07: Auto Trade Machine - Beta
   3. 2023/07 ~ 2023/09: Auto Trade Machine - Gamma
