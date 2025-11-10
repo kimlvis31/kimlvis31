@@ -8,3 +8,5 @@
   5. 2023/10 ~ 2024/03: Auto Trade Machine - Epsilon
   6. 2024/03 ~ 2024/09: Auto Trade Machine - Zeta
   7. 2024/09 ~        : Auto Trade Machine - Eta
+
+  8. 2024/07 ~        : Auto Trade Machine - Eta - RQP Function Parameters Seeker
