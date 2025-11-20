@@ -1,6 +1,7 @@
-## Hi there 👋
+***About Me***
+Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tech
 
-***History (June 2023 ~)***
+***Project History (June 2023 ~)***
   1. 2023/06 ~ 2023/07: Auto Trade Machine - Alpha
   2. 2023/07 ~ 2023/07: Auto Trade Machine - Beta
   3. 2023/07 ~ 2023/09: Auto Trade Machine - Gamma
@@ -10,3 +11,16 @@
   7. 2024/09 ~ 2025/11: Auto Trade Machine - Eta
   8. 2024/07 ~ 2025/11: RQP Function Parameters Seeker
   9. 2025/11 ~        : Auto Trade Machine - Theta
+
+***Language***
+Python
+
+***Framework***
+-
+
+***Library***
+PyTorch, Pyglet
+
+***Etc***
+Sqlite3
+
