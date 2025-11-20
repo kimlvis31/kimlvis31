@@ -1,7 +1,9 @@
-***About Me***
-Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tech
-
+***About Me***  
+-
+Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tech  
+  
 ***Project History (June 2023 ~)***
+-
   1. 2023/06 ~ 2023/07: Auto Trade Machine - Alpha
   2. 2023/07 ~ 2023/07: Auto Trade Machine - Beta
   3. 2023/07 ~ 2023/09: Auto Trade Machine - Gamma
@@ -13,14 +15,17 @@ Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tec
   9. 2025/11 ~        : Auto Trade Machine - Theta
 
 ***Language***
+-
 Python
 
 ***Framework***
 -
 
-***Library***
+***Library*** 
+-
 PyTorch, Pyglet
 
 ***Etc***
+-
 Sqlite3
 
