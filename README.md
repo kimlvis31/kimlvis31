@@ -14,18 +14,17 @@ Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tec
   8. 2024/07 ~ 2025/11: RQP Function Parameters Seeker
   9. 2025/11 ~        : Auto Trade Machine - Theta
 
-***Language***
+***Tech Stack***
 -
+**Language**  
 Python
+  
+**Framework**  
+  
 
-***Framework***
--
+**Library**  
+Pytorch, Pyglet
 
-***Library*** 
--
-PyTorch, Pyglet
-
-***Etc***
--
+**Etc**  
 Sqlite3
 
