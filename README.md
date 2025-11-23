@@ -11,7 +11,7 @@ Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tec
   5. 2023/10 ~ 2024/03: Auto Trade Machine - Epsilon
   6. 2024/03 ~ 2024/09: Auto Trade Machine - Zeta
   7. 2024/09 ~ 2025/11: Auto Trade Machine - Eta
-  8. 2024/07 ~ 2025/11: RQP Function Parameters Seeker
+  8. 2025/07 ~ 2025/11: RQP Function Parameters Seeker
   9. 2025/11 ~        : Auto Trade Machine - Theta
 
 ***Tech Stack***
