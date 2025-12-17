@@ -23,7 +23,7 @@ Java, Python
 Spring
 
 **Library**  
-Pytorch, Pyglet
+Pytorch, Numpy, Pyglet
 
 **DB**  
 MySQL, PostgreSQL (+TimescaleDB), Redis, Sqlite3
