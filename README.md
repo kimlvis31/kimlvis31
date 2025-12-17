@@ -29,4 +29,4 @@ Pytorch, Pyglet
 MySQL, PostgreSQL (+TimescaleDB), Redis, Sqlite3
 
 **DevOps**  
-Github Actions, Docker, VMWare
+Github Actions, Docker
