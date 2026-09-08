@@ -16,13 +16,13 @@ Bachelor of Science in Electrical Engineering - Micro/Nano Systems, Virginia Tec
 ***Tech Stack***
 -
 **Language**  
-Python, C++
+C, C++, Python
 
 **Library**  
 PyTorch, Numpy, Pyglet
 
 **DB**  
-MySQL, PostgreSQL (+TimescaleDB), Sqlite3
+PostgreSQL (+TimescaleDB), MySQL, Sqlite3
 
 **DevOps**  
 Docker
