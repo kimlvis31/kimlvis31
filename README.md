@@ -27,7 +27,7 @@
 - **Custom power system**: 4S Li-ion → star-point distribution → 12V / 5V / 3.3V rails, fused & monitored
 - Mock-firearm test platform (HK416D EBB) for recoil simulation, with custom 3D-printed parts
 
-
+<br>
 
 #### ⚡ TEFFP Seeker — Target Exposure Factor Function Parameters Seeker `2025.07 ~ 2026.03`
 > GPU-accelerated backtesting & parameter optimization engine for ATM-Eta strategies, built on **Triton** kernels.
@@ -41,7 +41,7 @@
 - Exports optimized parameters directly as **ATM-Eta Trade Configurations**
 - 🔗 [kimlvis31/TEFFPSeeker](https://github.com/kimlvis31/TEFFPSeeker)
 
-
+<br>
   
 #### 📈 ATM-Eta — Auto Trade Machine Eta `2024.09 ~ 2026.05`
 > Solo-developed end-to-end crypto trading platform unifying multi-timeframe analysis, backtesting, and live execution — **~73,000 lines.**
