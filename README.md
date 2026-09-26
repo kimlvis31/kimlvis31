@@ -2,7 +2,9 @@
 <p align="center">
   <b>Electrical Engineer building systems end-to-end — from sensors and firmware to GPU kernels and data pipelines.</b>
 </p>
-
+<p align="center">
+  <a href="./README.ko.md"><img src="https://img.shields.io/badge/Language-한국어-blue.svg"></a>
+</p>
 ---
 
 ### 🧭 About Me
