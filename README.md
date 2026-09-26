@@ -27,21 +27,37 @@
 - **Custom power system**: 4S Li-ion → star-point distribution → 12V / 5V / 3.3V rails, fused & monitored
 - Mock-firearm test platform (HK416D EBB) for recoil simulation, with custom 3D-printed parts
 
-#### 📈 ATM-Eta — Auto Trade Machine Eta `2024.09 ~ 2026.09`
-> Solo-developed crypto auto-trading system — **31 months, ~73,000 lines, 57+ modules.**
 
-- **9-process multiprocessing** architecture with a custom IPC protocol (FAR/FARR)
-- **TimescaleDB** time-series storage with **~78% compression**
-- Market data pipeline for Binance Vision (kline / depth / aggTrade)
-- Scrypt + Fernet based credential encryption
-- Custom **Pyglet**-based real-time chart GUI
+
+#### ⚡ TEFFP Seeker — Target Exposure Factor Function Parameters Seeker `2025.07 ~ 2026.03`
+> GPU-accelerated backtesting & parameter optimization engine for ATM-Eta strategies, built on **Triton** kernels.
+
+- **One Triton lane per parameter set** — thousands of full-length, minute-level backtests run concurrently on a single GPU
+- Achieves **~98.7% of theoretical memory bandwidth** on RTX 3080 Ti (**~73µs per parameter set**)
+- **Single-pass balance trend evaluation** — growth rate & volatility solved in closed form from running least-squares sums, keeping per-lane memory constant regardless of data length
+- Resolved catastrophic cancellation via precision rounding and **float64 accumulation**
+- **Population-based search**: central-difference numerical gradients + Adam-style updates + self-developed repopulation, with a max-drawdown filter
+- **Exchange-faithful simulation**: tiered maintenance margin liquidation, isolated/cross margin accounting, tick/step precision rounding
+- Exports optimized parameters directly as **ATM-Eta Trade Configurations**
+- 🔗 [kimlvis31/TEFFPSeeker](https://github.com/kimlvis31/TEFFPSeeker)
+
+
+  
+#### 📈 ATM-Eta — Auto Trade Machine Eta `2024.09 ~ 2026.05`
+> Solo-developed end-to-end crypto trading platform unifying multi-timeframe analysis, backtesting, and live execution — **~73,000 lines.**
+
+- **9-process architecture** with a custom IPC protocol (FAR/FARR) — GUI, ingestion, analysis, simulation, and execution never block each other
+- **Unified market data pipeline**: 4 heterogeneous streams (kline / aggTrade / depth / metric) normalized into a 1m base with on-demand multi-timeframe aggregation
+- **Two-layer gap detection** with explicit data provenance tagging, Binance Vision + REST backfill, and dummy-range recovery (refetch / LAN import)
+- **TimescaleDB** storage with **~78% compression** (98GB → 21GB), transactional batch writes, and automatic index repair
+- **Exchange state reconciliation**: ambiguous orders verified by `clientOrderId` instead of blind retries, early fills attributed to in-flight orders
+- **Priority-based API rate-limit budgeting** and make-before-break WebSocket renewal
+- **TEF strategy interface** decoupling analysis from execution — strategies portable to the GPU optimizer
+- **scrypt + Fernet** encrypted credential files (AAF), custom **Pyglet** real-time chart GUI
+- Validated by a **118-day live run** on Binance Futures with automatic recovery from disconnects, rate limits, and stream interruptions
 - 🔗 [kimlvis31/AutoTradeMachine_Eta](https://github.com/kimlvis31/AutoTradeMachine_Eta)
 
-#### ⚡ TEFFP Seeker — Target Exposure Factor Function Parameters Seeker `2025.07 ~ 2026.01`
-> GPU-accelerated backtesting engine built on **Triton JIT kernels**.
 
-- Achieves **~98.7% of theoretical memory bandwidth** on RTX 3080 Ti (**~73µs per parameter set**)
-- Resolved catastrophic cancellation via precision rounding and **float64 accumulation**
 
 #### 🧪 ATM Alpha ~ Zeta `2023.06 ~ 2024.09`
 > Six iterative generations of the trading system that laid the groundwork for ATM-Eta.
