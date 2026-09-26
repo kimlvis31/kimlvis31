@@ -57,7 +57,7 @@
 - Validated by a **118-day live run** on Binance Futures with automatic recovery from disconnects, rate limits, and stream interruptions
 - 🔗 [kimlvis31/AutoTradeMachine_Eta](https://github.com/kimlvis31/AutoTradeMachine_Eta)
 
-
+<br>
 
 #### 🧪 ATM Alpha ~ Zeta `2023.06 ~ 2024.09`
 > Six iterative generations of the trading system that laid the groundwork for ATM-Eta.
