@@ -13,7 +13,7 @@
 - 🎯 관심 분야: **임베디드 시스템 · 센서 퓨전 · 실시간 제어 · 고성능 컴퓨팅**
 - 🛰️ **전장관리체계(BMS)** 및 **지휘통제(C2) 체계** 에 관심
 - 🔧 하드웨어 메이커 — PCB 에칭, 로봇팔 조립, 3D 프린터 제작 및 튜닝, CNC 가공
-- 🌐 한국어 / 영어 구사
+- 🌐 한국어 / 영어
 
 ---
 
@@ -30,7 +30,7 @@
 - **자체 전원 시스템**: 4S 리튬이온 → 스타 포인트 분배 → 12V / 5V / 3.3V 레일, 퓨즈 보호 및 모니터링
 - 반동 모사를 위한 모의 총기 시험 플랫폼 (HK416D EBB) 및 자체 3D 프린팅 부품
 
-
+<br>
 
 #### ⚡ TEFFP Seeker — Target Exposure Factor Function Parameters Seeker `2025.07 ~ 2026.03`
 > **Triton** 커널 기반의 ATM-Eta 전략용 GPU 가속 백테스팅 및 파라미터 최적화 엔진입니다.
@@ -44,7 +44,7 @@
 - 최적화된 파라미터를 **ATM-Eta Trade Configuration** 으로 바로 내보내기
 - 🔗 [kimlvis31/TEFFPSeeker](https://github.com/kimlvis31/TEFFPSeeker)
 
-
+<br>
 
 #### 📈 ATM-Eta — Auto Trade Machine Eta `2024.09 ~ 2026.05`
 > 다중 시간대 분석, 백테스팅, 실거래를 하나로 통합한 1인 개발 암호화폐 트레이딩 플랫폼입니다 — **약 73,000줄.**
@@ -60,7 +60,7 @@
 - Binance Futures에서 **118일간 실거래 검증** — 연결 끊김, rate limit, 스트림 중단 상황에서 수동 개입 없이 자동 복구
 - 🔗 [kimlvis31/AutoTradeMachine_Eta](https://github.com/kimlvis31/AutoTradeMachine_Eta)
 
-
+<br>
 
 #### 🧪 ATM Alpha ~ Zeta `2023.06 ~ 2024.09`
 > ATM-Eta의 기반이 된 여섯 세대의 반복 개발 트레이딩 시스템입니다.
