@@ -100,4 +100,3 @@
 ### 📜 Certifications
 - 정보처리기사 (Engineer Information Processing) — Written exam passed, practical in progress
 - 임베디드기사 (Engineer Embedded Systems) — Written exam passed, practical in progress
-- SQLD — In preparation
