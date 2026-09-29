@@ -39,7 +39,7 @@
 > GPU-accelerated backtesting & parameter optimization engine for ATM-Eta strategies, built on **Triton** kernels.
 
 - **One Triton lane per parameter set** — thousands of full-length, minute-level backtests run concurrently on a single GPU
-- Achieves **~98.7% of theoretical memory bandwidth** on RTX 3080 Ti (**~73µs per parameter set**)
+- Achieves **~98.7% of theoretical memory bandwidth** on RTX 3080 Ti
 - **Single-pass balance trend evaluation** — growth rate & volatility solved in closed form from running least-squares sums, keeping per-lane memory constant regardless of data length
 - Resolved catastrophic cancellation via precision rounding and **float64 accumulation**; float64 mode matches the CPU reference simulator exactly
 - **Population-based search**: central-difference numerical gradients + Adam-style updates + self-developed repopulation, with a max-drawdown filter
@@ -56,7 +56,7 @@
 - **Unified market data pipeline**: 4 heterogeneous streams (kline / aggTrade / depth / metric) normalized into a 1m base with on-demand multi-timeframe aggregation
 - **Two-layer gap detection** with explicit data provenance tagging, Binance Vision + REST backfill, and dummy-range recovery (refetch / LAN import)
 - **Multi-node continuity**: during maintenance another machine on the LAN takes over collection, then databases are reconciled by range metadata to fill gaps
-- **TimescaleDB** storage with **~78% compression** (98GB → 21GB), transactional batch writes, and automatic index repair
+- **TimescaleDB** storage with **~84% compression** (98GB → 21GB), transactional batch writes, and automatic index repair
 - **Exchange state reconciliation**: ambiguous orders verified by `clientOrderId` instead of blind retries, early fills attributed to in-flight orders
 - **Priority-based API rate-limit budgeting** and make-before-break WebSocket renewal
 - **TEF strategy interface** decoupling analysis from execution — strategies portable to the GPU optimizer
