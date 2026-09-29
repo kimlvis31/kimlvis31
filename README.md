@@ -56,7 +56,7 @@
 - **Unified market data pipeline**: 4 heterogeneous streams (kline / aggTrade / depth / metric) normalized into a 1m base with on-demand multi-timeframe aggregation
 - **Two-layer gap detection** with explicit data provenance tagging, Binance Vision + REST backfill, and dummy-range recovery (refetch / LAN import)
 - **Multi-node continuity**: during maintenance another machine on the LAN takes over collection, then databases are reconciled by range metadata to fill gaps
-- **TimescaleDB** storage with **~84% compression** (98GB → 21GB), transactional batch writes, and automatic index repair
+- **TimescaleDB** storage with **~78% compression** (98GB → 21GB), transactional batch writes, and automatic index repair
 - **Exchange state reconciliation**: ambiguous orders verified by `clientOrderId` instead of blind retries, early fills attributed to in-flight orders
 - **Priority-based API rate-limit budgeting** and make-before-break WebSocket renewal
 - **TEF strategy interface** decoupling analysis from execution — strategies portable to the GPU optimizer
